@@ -1,0 +1,6 @@
+Autonomous Kit
+  
+  Venom, Symbiotes, Klyntar, Majin  
+
+  System that creates a symbiotic relationship with the bot, vehicle, or 
+  device it inhabits 

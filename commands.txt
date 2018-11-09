@@ -1,0 +1,7 @@
+[outputs list of avaiable wifi networks] 
+
+	nmcli dev wifi 
+
+[create a c library] 
+
+	ar -cvq [lib name].a [compiled .o files].o

@@ -1,0 +1,18 @@
+				INTRODUCTION
+	This document lays out the foundation towards building a robot (autonomous vehicle) so that a step by step process can be process can be applied to have a bot up and running as efficiently as possible. 
+
+	Not all bot configurations are the same, but they do have a commonality that can be structured towards making timely implementations. The following will break down the process towards establishing an autonomous machine while keeping the abstraction somewhat high, effectively to create a generalized approach. 
+
+				HARDWARE
+	Hardware can be broken down into a few different categories, but mainly consist of canBus related or tcp protocol related. canBus driven hardware can consists of actuators and sensors. Tcp protocol hardware mainly leans towards purely sensor (ladars, ultrasonics) and wireless technology (wifi antennas, GPS, etc.). The common factor among all of these is that there is a central unit that supplies power and communication amongst all devices which is the main bot computer. 
+	
+**CANHardware 
+
+Actuators
+	There are a number of hydraulic components used to drive various end effectors or mechancial components such as steering, braking, and end effector (dof movements). Typically these are can driven. Implementing a hydraulic system requires knowledge of the current hydraulic circuit, pressure/flow requirements, space avaiable, safety or redundant systems, and the required resources (cost) to implement the component. 
+
+Sensors
+	Sensors like pot sensors, encoders for wheel or end effoctor movent, or pressure transducers are generally applicable to canbus networks.  
+
+Implementation 
+
