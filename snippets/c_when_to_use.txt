@@ -1,0 +1,7 @@
+# if cpp isn't available 
+# very low-level stuff
+# embedded stuff (canbus etc) 
+# systems programming 
+# light weight programming for if low on resources (portable systems)
+# procedural programming (just a set of instructions to follow)
+# hardware drivers

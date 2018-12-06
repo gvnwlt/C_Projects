@@ -1,0 +1,17 @@
+// logs out to a txt file
+// other than creating log files, this is good for debugging as well 
+
+
+#include "stdio.h"
+
+void WriteLogFile(const char* szString) 
+{
+   #IFDEF DEBUG 
+
+   FILE* pFile = fopen("logFile.txt", "a"); 
+   fprint(pFile, "%s\n", szString); 
+   fclose(pFile); 
+
+   #ENDIF
+
+}

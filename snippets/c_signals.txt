@@ -1,0 +1,21 @@
+# signals are sent to a process (system environment) to manage the process
+# signal notifications generally used to notify signal events that occured 
+
+# common signal types (macros) 
+  SIGINT (signal intertrupt like ctrl-c that immediately terminates process)
+  SIGTSTP (signal suspends a process like ctrl-z)
+  SIGABRT (signal immediately terminates a process) 
+ 
+# examples of using signals to kill process via UNIX system 
+  kill -<signal> <PID> 
+
+# using C programming to mess with signals 
+  #include <unistd.h> // standard unix functions 
+  #include <sys/types.>  // various type definitions for system like pid_t
+  #include <signal.h> // signal name macros and kill()
+
+  pid_t my_pid = getpid();
+
+  kill(mypid, SIGSTOP); 
+
+

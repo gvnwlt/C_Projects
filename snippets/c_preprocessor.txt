@@ -1,0 +1,22 @@
+// #IFDEF is a preprecessor that simply executes whats in the block if the 
+// condition is met. If the following is define do this. 
+// Conversely, IFNDEF means if the following is not defined, do this. 
+
+/* IFDEF EXAMPLE */ 
+// define preprocessor variable one
+#DEFINE one 0 
+
+// execute statement or block if one is true 
+#IFDEF one 
+	printf("one is defined"); 
+#ENDIF 
+// result: nothing gets printed 
+
+
+/* IFNDEF EXAMPLE */ 
+#DEFINE one 1
+#IFDEF one 
+   printf("one is not defined"); 
+#ENDIF
+// result: nothing gets printed 
+ 

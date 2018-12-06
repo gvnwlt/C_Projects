@@ -1,0 +1,31 @@
+# sort, search, store
+
+
+# strings 
+  char* string = "hello"; 
+
+# copying array 
+  memcopy 
+
+# dynamic allocation (kind of like a vector)
+
+# typedef (aliasing)
+  typedef struct foo {
+      int member = 0; 
+  } bar; 
+
+  bar b; 
+  b.member = 1; 
+
+# file guards and preprocessor directives 
+  #ifndef FILENAME_H
+  #define FILENAME_H
+  ...
+  #endif
+
+  #ifdef
+    dothis()
+  #else 
+    dothat()
+  #endif 
+

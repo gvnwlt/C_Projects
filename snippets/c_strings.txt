@@ -1,0 +1,11 @@
+# char-star string (just a way to do strings in c since they are character arrays)
+  char* string; 
+
+# uses signal element at the end of the array to know that the string's end
+  '\0' (null terminator) or '\n'
+
+# free c functions that deal with strings (not very safe--overwrites and buffer
+  overflows)
+  strlen  (returns length of the string, iterates through array until \0) 
+  strcpy  (copies string into another string)
+  strcat  (glues two strins together)

@@ -1,0 +1,9 @@
+﻿projectname/
+│
+├── bin
+├── doc
+├── build
+├── lib
+├── include
+├── src
+└── tst

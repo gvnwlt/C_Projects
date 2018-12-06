@@ -1,0 +1,11 @@
+# common libs for c 
+  <stdio.h> (defines core output functions)
+  <math.h> (common math functions)
+  <assert.h>  (contains assert macro to assist detecting errors)
+  <errno.h> (testing errors codes reported by lib functions)
+  <time.h> (time and date handling)
+  <stdbool.h> (defines a boolean type) 
+  <strdarg.h> (accesses varying arguments passed to functions)
+  <string.h> (handles string functions)
+  <stdlib.h> (malloc rand and srand type stuff)
+  <signal.h> (signal handling functions)
