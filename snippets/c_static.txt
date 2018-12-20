@@ -1,0 +1,4 @@
+# static functions and variables (the poor man's private member or helper)
+    -essentially this can be used in many different ways 
+    -if used inside of a function the variable becomes a global on the heap (does not get destroyed after jumping out of the function's scope)
+    -if used outside of a function for either variables or functions then it is basically a private member now that no other file can use 
