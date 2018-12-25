@@ -1,0 +1,9 @@
+# get number of elements 
+
+int get_elems(char* word)
+{
+    int elemenets = 0; 
+    elements = sizeof(word) / sizeof(word[0]); 
+
+    return elements; 
+}

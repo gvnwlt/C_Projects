@@ -1,0 +1,6 @@
+# memset 
+    *use when array must be set by size of something with something not yet initialized during compile
+
+int arr[n]; 
+memset(array, 0, n*sizeof(int)); // initialize arr with zeroes 
+

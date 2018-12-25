@@ -1,0 +1,17 @@
+# custom debug statements (both stdout and using gui ouputs, loggers, etc.)
+
+void debug_arr(int index, bool arr[], char* msg)
+{
+  char* out; 
+  if (msg == "empty")
+    out = "default"; 
+  else
+    out = msg; 
+    
+  printf("@ index %d, value = %d, %s\n", index, arr[index], out); 
+}
+
+void debug_val(char* name, int val)
+{
+  printf("%s = %d\n", name, val); 
+}
