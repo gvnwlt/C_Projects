@@ -1,0 +1,19 @@
+# variadic functions 
+
+#include <stdarg.h> // lib for these type of things 
+#include <stdio.h> 
+
+double average(int count, ...) // can only use with non-fixed arguments as specified with '...'
+{
+    va_list ap; // type from lib 
+    int j; 
+    double sum = 0; 
+
+    va_start(ap, count); // needs last fixed parameter to get the address
+    for (j = 0; j < count; j++)
+    {
+        sum += va_arg(ap, int); // increments int-size by int-size to next argument and increments 
+    }
+    va_end(ap); 
+
+}
